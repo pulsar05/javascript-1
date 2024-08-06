@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Game</title>
+</head>
+<style>
+    body{
+        background-image: url(gif\ background\ image.gif);
+        color: white;
+        text-align: center;
+    }
+    .heading{
+        text-align: center;
+        justify-content: center;
+        color: white;
+        margin-top: 10%;
+    }
+    #guess{
+        text-align: center;
+       margin-top: 5%;
+       
+    }
+    #guessinput{
+        width: 250px;
+        height: 25px;
+        border-radius: 15px;
+    }
+    #check{
+        text-align: center;
+    }
+    #check-btn{
+        width: 100px;
+        height: 25px;
+        border-radius: 15px;
+    }
+</style>
+<body>
+     <div class="heading">
+        <h2>Guess the correct Number</h2>
+    </div>
+    <div id="guess">
+        
+        <input type="number" id="guessinput">
+    </div>
+    <br>
+    <div id="check">
+        <button type="button" id="checkbtn">submit</button>
+    </div>
+    <p id="message"></p>
+
+    
+</body>
+<script src="script.js"></script>
+</html>
